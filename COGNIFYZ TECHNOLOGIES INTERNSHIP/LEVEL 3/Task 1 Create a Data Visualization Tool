@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+
+# Sample dataset
+data = [20, 15, 30, 10, 25]
+labels = ['A', 'B', 'C', 'D', 'E']
+
+plt.figure(figsize=(6, 4))
+plt.bar(labels, data, color='purple')
+plt.xlabel('Categories')
+plt.ylabel('Values')
+plt.title('Sample Data Visualization')
+plt.show()
